@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { RiCheckboxBlankFill } from "react-icons/ri";
 
-const StarRating1 = () => {
+const Rating = () => {
   const [rating, setRating] = useState(null);
   const [hover, setHover] = useState(null);
 
@@ -111,4 +111,4 @@ const StarRating1 = () => {
   );
 };
 
-export default StarRating1;
+export default Rating;
